@@ -1,0 +1,9 @@
+Install Node.
+Create project folder.
+Run command "npm init --yes".
+Create file (index.js) and write code.
+Run command "node index" to run code in index.js file.
+---
+Name:	Redux Toolkit Tutorial - 2 - Getting Started
+Link:	https://www.youtube.com/watch?v=ZySFOgejw0k&list=PLC3y8-rFHvwiaOAuTtVXittwybYIorRB3&ab_channel=Codevolution
+----------
