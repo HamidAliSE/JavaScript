@@ -1,0 +1,63 @@
+var
+Scope
+Function Scope
+---
+Update
+Yes
+---
+Redeclare
+Yes
+---
+Declare without initialization
+Yes
+---
+Access without initialization
+Yes [Default Value: undefined]
+---
+Hoisting
+Yes [Initialize with default value of undefined]
+----------
+
+let
+Scope
+Block Scope
+---
+Update value
+Yes
+---
+Redeclare
+No
+---
+Declare without initialization
+Yes
+---
+Access without initialization
+No [Error on accessing without initialization: Reference Error]
+---
+Hoisting
+Yes [Not initialized + Throws error on accessing before initialization]
+----------
+
+const
+Scope
+Block Scope
+---
+Update
+No
+---
+Redeclare
+No
+---
+Declare without initialization
+No
+---
+Access without initialization
+No [Error on accessing without initialization: Syntax Error]
+---
+Hoisting
+Yes [Not initialized + Throws error on accessing before initialization]
+----------
+
+Links
+https://www.geeksforgeeks.org/difference-between-var-let-and-const-keywords-in-javascript/
+----------

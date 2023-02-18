@@ -1,0 +1,15 @@
+Scope of an identifier is the part of program where it can be accessed.
+
+Types
+Block Scope
+Function Scope
+Global Scope
+
+Block Scope
+Identifiers declare within curly braces {}.
+
+Function Scope
+Identifiers declare within a function.
+
+Global Scope
+Identifiers declare outside a function.
