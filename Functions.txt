@@ -1,0 +1,11 @@
+A reusable block of code that performs a specific task.
+
+Types (on the basis of creation)
+Function Declaration
+Example
+function functionName (parameters) {// code to be executed}
+----------
+Function Expressions
+Example
+const returnValue = function (parameters) {return something}
+----------
