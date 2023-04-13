@@ -1,0 +1,5 @@
+Android Applications States (4)
+01. Active State: Can Interact, Can Perform Tasks, In Foreground, Visible
+02. Inactive State: Can't Interact, Paused, In Background, Not Visible
+03. Background State: Can't Interact, Running, In Background, Not Visible
+04. Suspended State: Neither Foreground Nor Background, No Resource Use, Completely Shut Down
