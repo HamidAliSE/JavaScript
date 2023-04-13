@@ -1,0 +1,32 @@
+Section of code related to something in a program.
+
+Module imports are hoisted.
+Module imports are read only(But properties of an object imported can be modified).
+
+Types
+Named Modules
+Examples
+Single Import/Export
+Export: export const name = "Hamid Ali";
+Import: import { name } from "path/to/file/containing/name";
+---
+Multiple Import/Export
+Export: export const firstName = "Hamid";
+Export: export const lastName = "Ali";
+Import: import { firstName, lastName } from "path/to/file/containing/firstName/and/lastName";
+---
+Multiple Import/Export
+Export: const firstName = "Hamid";
+Export: const lastName = "Ali";
+Export: export { firstName, lastName };
+Import: import { firstName, lastName } from "path/to/file/containing/firstName/and/lastName";
+---
+Alias Import/Export
+Export: const firstName = "Hamid";
+Export: const lastName = "Ali";
+Export: export { firstName, lastName };
+Import: import { firstName as fn, lastName as ln } from "path/to/file/containing/firstName/and/lastName";
+Now, firstName and lastName cannot be used. Only fn and ln can be used.
+----------
+Default Modules
+----------
