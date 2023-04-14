@@ -1,5 +1,12 @@
 Android Applications States (4)
-01. Active State: Can Interact, Can Perform Tasks, In Foreground, Visible
-02. Inactive State: Can't Interact, Paused, In Background, Not Visible
-03. Background State: Can't Interact, Running, In Background, Not Visible
-04. Suspended State: Neither Foreground Nor Background, No Resource Use, Completely Shut Down
+01. Active: Can Interact, Can Perform Tasks, In Foreground
+02. Inactive: Can't Interact, Paused, In Background
+03. Background: Can't Interact, Running, In Background, Not Visible
+04. Suspended: Neither Foreground Nor Background, No Resource Use, Completely Shut Down
+
+iOS Applications States (5)
+01. Not Running / Terminated: Not Launched, Not Running, Terminated by User or OS, Neither Foreground Nor Background
+02. Active: Running, In Foreground, Receive Events
+03. Inactive: Running, In Foreground, Not Receive Events
+04. Background: Running, In Background
+05. Suspended: Not Running, In Background, In Memory, No Resource Use
