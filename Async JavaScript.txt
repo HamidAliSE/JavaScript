@@ -1,0 +1,14 @@
+In its simplest form, JS is synchronous, blocking and single-threaded.
+But JS can execute asynchronously without blocking UI with the help of functions and API's provided by Web Browsers.
+
+Timers & Intervals
+Timers are used to execute code once after a specified period of time.
+Intervals are used to execute code over and over again at regular intervals.
+They are not part of JS, but are the functionalities implemented by browser and used by JS with the name of setTimeout and setInterval.
+Syntax: setTimeout(function OR reference to function to be executed, timer in milliseconds, param1, param2, ...)
+Syntax: setInterval(function OR reference to function to be executed, interval in milliseconds, param1, param2, ...)
+Timer & Interval is the minimum delay, not guaranteed, before executing the function. Call Stack needs to be empty after the delay to execute the function.
+Both functions return identifier for themselves which can be used to clear it by passing identifier to clearTimeout & clearInterval.
+Immediately(OR before executing,) clearing timeouts & intervals stop them from executing at once.
+
+Start callbacks from here...
