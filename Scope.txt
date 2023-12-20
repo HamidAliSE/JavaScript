@@ -1,4 +1,5 @@
 Scope of an identifier is the part of program where it can be accessed.
+Lexical Scope of an identifier is the nested subparts of a scope where it can be accessed.
 
 Types
 Block Scope
