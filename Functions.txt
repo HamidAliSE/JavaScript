@@ -9,3 +9,12 @@ Function Expressions
 Example
 const returnValue = function (parameters) {return something}
 ----------
+
+Arrow Function
+01. Shorter Syntax of Regular Function
+02. This Keyword (Lexical Scope)
+03. Arguments Object (Lexical Scope)
+04. No Prototype Property (Therefore, cannot be used as constructor.)
+
+Higher Order Functions
+Function that takes one or more functions as arguments, and/or returns a function as its result.
