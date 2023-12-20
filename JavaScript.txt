@@ -1,0 +1,19 @@
+JavaScript is Case Sensitive Language.
+JavaScript is Functional as well as Object Oriented Language.
+JavaScript is Single Threaded.
+JavaScript is Synchronous Language but it also supports Asynchronous Programming using concepts such as Callbacks, Promises and async/await (Non-Blocking APIs).
+
+Debouncing & Throttling
+Optimize Performance & Avoid Unnecessary Function Calls
+Techniques to limit the number of times a function is called in a certain amount of time.
+Can be useful in situations like typing with results, button click events, resizing windows & scroll events.
+Debouncing delays the execution of subsequent calls for a period of time.
+Throttling ignores the execution of subsequent calls in a period of time.
+
+Closure & Currying
+Closure is a mechanism in JavaScript that allows inner functions to access variables from their outer function's scope, even after the outer function has returned.
+It is done by Lexical Environment which includes any variables that were in scope when the function was defined.
+The inner function, when returned and saved in a variable, maintains a reference to its parent function's lexical environment. This allows it to access variables from the parent function's scope, even if those variables are not in scope in the current execution context.
+Benefits of Closure are Reusability & Encapsulation of State and Behaviors.
+Currying is a technique where a function with multiple arguments is transformed into a series of functions that take one argument each. The result of each function call is a new function that takes the next argument until all arguments are received, at which point the final result is returned.
+Curried Functions often use Closures to maintain state between calls, as each returned function has access to the variables defined in the outer function.
