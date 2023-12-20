@@ -1,0 +1,13 @@
+Pillars
+01. Encapsulation: Hiding Internal Details
+02. Abstraction: Identifying & Implementing Essential Features
+03. Inheritance: Inheriting Shared Internal Details & Features From Parent To Child
+04. Polymorphism: Different Implementations In Child Using Shared Internal Details & Features From Parent
+
+Types Of Polymorphism
+01. Compile Time: Achieved Through Method Overloading
+02. Run Time: Achieved Through Method Overriding
+
+Overloading
+Methods in Same Class with Same Name but Different Parameters & Different Return Type (Not Possible in JS due to Dynamic Argument Types & its Lengths - Use Most Recent Implementations in JS)
+Method in Sub Class with Same Name, Same Parameters (Not Same for JS) & Same Return Type
