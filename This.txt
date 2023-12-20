@@ -1,0 +1,27 @@
+In case of standalone function, this refers to Global Object.
+This refers to the Object/Function that is Executing Code OR that Owns Code. (Both are same.)
+
+Change the Behavior of This
+01. Bind
+Doesn't call the original function while binding.
+Creates a new function which can be called later.
+This refers to its first argument.
+Pre filled arguments from second argument onwards.
+
+02. Call
+Call a function.
+This refers to its first argument.
+From second argument onwards, arguments belong to the function called.
+
+03. Apply
+Same as Call except having only two arguments.
+Second Argument is an array as a replacement of arguments from second argument onwards in Call method.
+
+04. Arrow Function
+In arrow functions, this is lexically scoped which means it refers to its parent scope.
+
+05. Strict Mode
+Does not assign Global Scope when this keyword is accessed without any context.
+Does not allow to use this keyword in a function that is called by using call and apply if their first argument is invalid object that this will be bound to.
+Throws Type Error when tries to set the value of this keyword with a value of primitive type unlike non-strict mode where primitive values are converted into objects.
+Creating a new object using constructor function with the new keyword will not automatically bind this keyword to the new object. Instead this keyword will be undefined in the constructor function unlike non-strict mode where this keyword will be bound to Global Object.
