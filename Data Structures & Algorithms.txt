@@ -1,0 +1,44 @@
+01. Arrays
+An array is a collection of elements of the same data type that are stored in contiguous memory locations.
+Types
+a. 1D Arrays (Single Row OR Column)
+b. 2D Arrays (Grid of Rows & Columns)
+c. Multidimensional Arrays (Multiple Levels OR Dimensions e.g. 3D and so on.)
+d. Dynamic Arrays (NOT of a Fixed Size, Change (Increase OR Decrease) Size During Runtime)
+e. Jagged Arrays (A jagged array is an array of arrays where each array can have a different size. This is useful when working with non-uniform data, such as a list of items where each item has a different number of attributes.)
+f. Circular Arrays (A circular array is an array in which the last element is connected to the first element, creating a circular structure.)
+
+02. Linked Lists
+A linked list is a linear data structure that consists of a sequence of nodes, where each node contains data and a pointer to the next node in the sequence.
+a. Singly Linked List (A singly linked list is a linked list in which each node contains a data element and a pointer to the next node in the sequence. The last node in the list contains a null pointer, indicating the end of the list.)
+b. Doubly Linked List (A doubly linked list is a linked list in which each node contains a data element, a pointer to the next node in the sequence, and a pointer to the previous node in the sequence. This allows for efficient traversal in both directions.)
+c. Circular Linked List (A circular linked list is a linked list in which the last node points to the first node, creating a circular structure.)
+
+03. Stacks & Queues
+Stacks & Queues are both abstract data types that allow for the efficient storage and retrieval of data in specific ways.
+Stack is a last-in, first-out (LIFO) structure.
+Queue is a first-in, first-out (FIFO) structure.
+
+04. Trees
+A tree is a hierarchical data structure that consists of nodes connected by edges.
+Trees are used to represent hierarchical relationships between data.
+a. Binary Tree (A binary tree is a tree data structure in which each node has at most two children, referred to as the left child and the right child.)
+b. Binary Search Tree - BST (A binary search tree is a binary tree in which the value of each node is greater than or equal to the values in its left subtree and less than or equal to the values in its right subtree. This property allows for efficient searching and sorting operations.)
+c. AVL Tree
+An AVL tree is a self-balancing binary search tree in which the heights of the left and right subtrees of any node differ by at most one.
+Each node in an AVL tree stores a balance factor, which is the difference between the heights of its left and right subtrees.
+Whenever an operation such as insertion or deletion results in an imbalance in the tree, a series of rotations are performed to restore the balance of the tree.
+There are four types of rotations that can be performed on an AVL tree (Left Rotation, Right Rotation, Double Left Rotation & Double Right Rotation)
+d. Red-Black Tree
+A red-black tree is a self-balancing binary search tree, similar to an AVL tree, but with a simpler balancing mechanism that requires fewer rotations.
+Each node is colored either red or black
+
+05. Graphs
+A graph is a collection of nodes (vertices) and edges that connect them.
+Graphs are used to represent complex relationships between data.
+
+06. Hash Tables
+A hash table is a data structure that uses a hash function to map keys to values, allowing for efficient lookup, insertion, and deletion of data.
+
+07. Heaps
+A heap is a specialized tree-based data structure that is used to efficiently find the maximum or minimum element in a collection of data.
