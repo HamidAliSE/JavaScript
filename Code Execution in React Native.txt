@@ -1,0 +1,40 @@
+Hot Reloading
+01. Feature
+02. For fast & efficient development
+03. Get real-time reflection of source code changes in the running application without reloading, refreshing or restarting while preserving the current state of application.
+
+Metro
+01. Local Development Server
+02. Used for Compiling & Bundling
+03. Provide Useful Tools for Debugging & Hot Reloading
+04. Default in React Native, Specialized for React Native, Written in JS
+
+Webpack
+JS compiler preferred for web development.
+
+Parcel & Rollup
+JS compilers (Less Used)
+
+React Native Runtime
+01. Runtime for React Native
+02. Responsible for executing and managing React Native Applications (Rendering, Event Handling & Communicating with Native Platforms)
+03. Includes JavaScript Engine(New: Hermes, Old: JavaScriptCore - iOS & V8 - Android) & Native Modules
+
+Native Modules
+01. Native Components used in React Native
+02. Written in Native Code (Java / Kotlin - Android & Swift / Objective C - iOS)
+03. Provide Access to Device Specific Features (Camera, Geolocation, Storage) which are not available through JS alone.
+04. Available open source
+05. Can be integrated easily
+06. Benefits: Access to Device Specific Features, Better Performance, More Customization, Reusable
+
+Code Execution in React Native
+01. Compiling: JS Code to Device Understandable Code by Metro (Default, Other Compiler is Babel)
+02. Bundling: Compiled Code to a Single Bundle by Metro (Default, Other Bundlers are Webpack, Parcel & Rollup)
+03. Loading: By making a Bridge between JS Bundle & Native Code by React Native Runtime to interact with Device's Hardware(Sensors, Camera, Network etc.) & APIs
+04. Executing: Updating UI & Handling Interactions
+
+// TO DO
+Rendering
+Fabric
+Bridging
