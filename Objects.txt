@@ -1,0 +1,5 @@
+Prototype
+01. Property of every Object.
+02. Reference to an Object that contains Properties and Methods shared among all instances of a particular object type.
+03. Useful for Inheritance. (By setting the prototype property of one object type to an instance of another object type)
+04. Useful for Adding, Updating & Deleting, Properties & Methods of an Object's Prototype (Not Recommended for Built-In Objects)
